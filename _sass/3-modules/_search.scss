@@ -43,10 +43,10 @@
 
   .search__text {
     width: 100%;
-    padding: 20px 20px 20px 0;
-    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
-    font-size: 37px;
-    line-height: 40px;
+    padding: 20px 18px 18px 0;
+    font-family: 'Fjalla One', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 32px;
     border: none;
     border-bottom: 3px solid $dark;
     color: $dark;
@@ -63,28 +63,24 @@
 .search-results-list {
   height: 55vh;
   margin: 0 0 0 -5px;
-  padding: 0 0 25px 25px;
+  padding: 0 26px;
   list-style: decimal;
   font-weight: 700;
-  color: $dark;
+  color: #bbb;
   overflow: auto;
   white-space: normal;
 
   .search-results__item {
-    padding: 0 0 0 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   
   .search-results__link {
-    display: block;
-    padding: 20px 15px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    border-radius: 3px;
-    color: $dark;
-    background: $light-gray;
+    color: lighten($dark, 10%);
+    transition: all .15s;
     &:hover {
       color: #000;
     }

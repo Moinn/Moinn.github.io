@@ -1,9 +1,10 @@
-/* Wrapper Page */
-.wrapper-page {
-  margin-top: 80px;
+/* Tag Page */
+.archive-title {
   margin-bottom: 80px;
+  padding-left: 15px;
+  border-left: 7px solid $brand-color;
+  
   @media only screen and (max-width: $mobile) {
-    margin-top: 50px;
     margin-bottom: 50px;
   }
 }

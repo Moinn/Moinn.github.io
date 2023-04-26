@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  The Force is strong with this one. I have you now
-date:   2018-11-09 15:01:35 +0300
-image:  '/images/06.jpg'
-tags:   Life
+title:  The last time I felt it was in the presence of my old master
+date:   2018-11-11
+image:  images/04.jpg
+tags:   [Life]
 ---
 Still, she's got a lot of spirit. I don't know, what do you think? Hokey religions and ancient weapons are no match for a good blaster at your side, kid. I can't get involved! I've got work to do! It's not that I like the Empire, I hate it, but there's nothing I can do about it right now. It's such a long way from here.
 
 I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. You are a part of the Rebel Alliance and a traitor! Take her away! Your eyes can deceive you. Don't trust them.
-
-## Your eyes can deceive you. Don't trust them.
 
 Hokey religions and ancient weapons are no match for a good blaster at your side, kid. I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force.
 

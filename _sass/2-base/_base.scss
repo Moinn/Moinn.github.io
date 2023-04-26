@@ -11,31 +11,27 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   input, textarea {
-    border: 1px solid $border-color;
-    outline: none;
-    &:focus:required:invalid {
-      border-color: #e02f40;
-    }
-    &:required:valid {
-      border-color: #34a74e;
-    }
-  }
-  
-  @media only screen and (max-width: $mobile) {
-    font-size: 16px;
-    line-height: 29px;
-  }
+		border: 1px solid $border-color;
+		outline: none;
+		&:focus:required:invalid {
+			border-color: #e02f40;
+		}
+		&:required:valid {
+			border-color: #34a74e;
+		}
+	}
 }
 
 ::placeholder {
-  color: #666;
+	color: #666;
 }
 
 *::selection {
-  color: $dark;
-  background-color: rgba($brand-color, 0.4);
+  color: #fff;
+  background-color: $brand-color;
 }
 
+// Headings
 h1,
 h2,
 h3,
@@ -43,8 +39,9 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-weight: $heading-font-weight;
-  line-height: $heading-line-height;
+  line-height: initial;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -71,9 +68,9 @@ h6 {
   font-size: $font-size-h6;
 }
 
+// Blockquote
 blockquote {
   padding-left: $base-spacing-unit;
-  font-family: 'Josefin Sans', sans-serif;
   font-size: 24px;
   line-height: 34px;
   border-left: 3px solid $brand-color;
@@ -82,7 +79,7 @@ blockquote {
   cite {
     font-size: 16px;
     font-style: normal;
-    color: $gray-blue;
+    color: $gray;
     &:before {
       content: '\2014' '\00a0';
     }
@@ -94,6 +91,7 @@ blockquote {
   }
 }
 
+// Pre
 pre {
   overflow: auto;
   padding: 15px;
@@ -104,6 +102,8 @@ pre {
   word-break: break-all;
 }
 
+
+// Images
 img, 
 .zoom-img-wrap {
   max-width: 100%;
@@ -112,29 +112,37 @@ img,
   &+em {
     display: block;
     margin-top: 15px;
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
     line-height: 22px;
     font-style: normal;
     font-weight: normal;
     text-align: center;
-    color: $gray-blue;
+    color: $gray;
   }
 }
 
+
+// Links
 a {
   text-decoration: none;
   color: $link-color;
-  transition: $global-transition;
+  transition: all .15s;
+  
   &:hover {
-      color: $gray-blue;
+    color: $link-color-hover;
   }
 }
 
+// Hr
 hr {
   display: block;
   height: 1px;
   margin: 50px 0;
   border: 0;
-  background: #eeeeee;
+  background-color: $light-gray;
+}
+
+// Wow Js
+.wow {
+  visibility: hidden;
 }

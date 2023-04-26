@@ -2,14 +2,14 @@
 layout: page
 title: Style Guide
 permalink: /styleguide/
-image: '/images/12.jpg'
+image: images/12.jpg
 ---
 
 A paragraph looks like this — dolor amet cray stumptown fingerstache neutra food truck seitan poke cardigan waistcoat VHS snackwave celiac hella. Godard seitan shoreditch flexitarian next level trust fund man braid vegan listicle keytar bitters. Disrupt cray fashion axe unicorn lomo shaman poke glossier keffiyeh snackwave austin tattooed seitan hexagon lo-fi. Lumbersexual irony vaporware, butcher shaman church-key iceland.
 
 ***
 
-## Headings by default:
+### Headings by default:
 
 # H1 For example
 ## H2 For example
@@ -26,7 +26,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 
 ***
 
-## Lists
+### Lists
 
 #### Ordered list example:
 
@@ -56,7 +56,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 
 ***
 
-## Quotes
+### Quotes
 
 #### A quote looks like this:
 
@@ -68,7 +68,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 
 
 
-## Syntax Highlighter
+### Syntax Highlighter
 
 {% highlight js %}
   $('.top').click(function () {
@@ -91,9 +91,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 
 ***
 
-## Images
+### Images
 
 ![]({{site.baseurl}}/images/13.jpg)
 *Streets of New York*
-
-***

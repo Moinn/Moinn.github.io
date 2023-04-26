@@ -1,3 +1,4 @@
+/* Button Top */
 .top {
   position: fixed;
   bottom: 40px;
@@ -11,15 +12,21 @@
 	color: $dark;
 	cursor: pointer;
 	transition: all .25s ease;
+	opacity: .7;
   
   &.is-active {
     right: 40px;
+  }
+  
+  &:hover {
+    opacity: 1;
   }
 }
 
 @media only screen and (max-width: $tablet) {
   .top {
     bottom: 25px;
+    
     &.is-active {
       right: 30px;
     }
