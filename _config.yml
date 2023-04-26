@@ -1,39 +1,39 @@
-title: Reked
-logo: "images/logo.svg" # You can add own logo image.
-description: Minimalistic Theme for Jekyll
-baseurl: "" # The subpath of your site, e.g. /blog
-url: "" # The base hostname & protocol for your site, e.g. http://example.com
+title: Melotta
+logo: # You can add own logo. For example '/images/logo.png'.
+description: Melotta is a modern and minimal Jekyll theme for sharing your ideas.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author:
   name: Sasha Levi
-  bio: Hi, my name is Sasha Levi. I like being at the center of events, being free and enjoying every moment. Thank you for visiting my blog.
+  image: '/images/01.jpg'
 
 # Contact links
-twitter: https://twitter.com/ # Add your Twitter handle
-facebook: https://facebook.com/ # Add your Facebook handle
-dribbble: https://dribbble.com/ # Add your Dribbble handle
-instagram: https://instagram.com/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
-email: forexample@website.com # Add your Email address
+# Example of adding a new link to the footer - {name: "Github", icon: "ion-logo-github", link: "https://github.com"}
+# Other icons can be found at https://ionicons.com
+contact:
+- {name: "Twitter", icon: "ion-logo-twitter", link: "https://twitter.com"}
+- {name: "Facebook", icon: "ion-logo-facebook", link: "https://facebook.com"}
+- {name: "Dribbble", icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+- {name: "Instagram", icon: "ion-logo-instagram", link: "https://instagram.com"}
+- {name: "Pinterest", icon: "ion-logo-pinterest", link: "https://pinterest.com"}
+- {name: "Email", icon: "ion-ios-mail", link: "mailto:forexample@website.com"}
 
-# Hero Section
-hero: true # To enable the section hero, use the value true. To turn off use the value false.
-hero-title: Raked Minimalistic Theme # Add your hero title
-hero-subtitle: For those who love simplicity # Add your hero subtitle
-hero-image: images/14.jpg # Add background image in section hero
-
-# Footer
-footer-image: images/14.jpg # Add background image in footer
+# Slider Section
+slider: Life # NOTE - By default, the slider is set to display tags. Now the slider shows the tag with the text "Life". If you do not want to use the slider, leave the slider field empty.
 
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+
+# Instagram Feed
+instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile: https://www.instagram.com
+userID: 6716400487
+accessToken: 6716400487.1677ed0.4fae51c47bc544a895b81756a7d0c477
 
 # Google Analytics
-google-analytics: "" # Add your identifier. For example UA-99631805-1.
-
-# Newsletter
-mailchimp: "" # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+google-analytics: # Add your identifier. For example UA-99631805-1.
 
 # Build settings
 markdown: kramdown
@@ -43,7 +43,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
 
-paginate: 4
+paginate: 9
 paginate_path: "/page/:num"
 
 # Pages Path
