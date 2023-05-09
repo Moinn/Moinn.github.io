@@ -1,5 +1,5 @@
-title: Reked
-logo: "images/logo.svg" # You can add own logo image.
+title: 云步青烟
+logo: "images/logo.png" # You can add own logo image.
 description: Minimalistic Theme for Jekyll
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site, e.g. http://example.com
